@@ -90,7 +90,8 @@ export function Home() {
 				/>
 				<div className="row">{getCards}</div>
 			</div>
-			<Footer footerDescription="Copyright &#169; Your Website 2020" />
+			<Footer footerDescription="Copyright &#169; Mi sitio Web 2022" />
 		</div>
 	);
 }
+
