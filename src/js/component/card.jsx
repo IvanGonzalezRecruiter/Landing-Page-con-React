@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Card = props => {
+const Card = (props) => {
 	return (
 		<div className="card h-100 w-100">
 			<img src={props.imgSrc} className="card-img-top" alt="..." />
@@ -21,7 +21,7 @@ Card.propTypes = {
 	description: PropTypes.string,
 	buttonUrl: PropTypes.string,
 	buttonLabel: PropTypes.string,
-	imgSrc: PropTypes.string
+	imgSrc: PropTypes.string,
 };
 
 export default Card;

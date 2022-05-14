@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "./navbar";
-import Jumbo from "./jumbo";
-import Card from "./card";
-import Footer from "./footer";
+import Navbar from "./navbar.jsx";
+import Jumbo from "./jumbo.jsx";
+import Card from "./card.jsx";
+import Footer from "./footer.jsx";
 
 // include images into your bundle
 // import rigoImage from "../../img/rigo-baby.jpg";
@@ -12,20 +12,20 @@ export function Home() {
 	const menu = [
 		{
 			label: "Home",
-			url: "#"
+			url: "#",
 		},
 		{
 			label: "About",
-			url: "/"
+			url: "/",
 		},
 		{
 			label: "Services",
-			url: "#"
+			url: "#",
 		},
 		{
 			label: "Contact",
-			url: "/"
-		}
+			url: "/",
+		},
 	];
 
 	const cards = [
@@ -35,7 +35,7 @@ export function Home() {
 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta porta dui, varius maximus neque tincidunt gravida. Quisque eleifend neque nisl, vitae cursus urna facilisis a.",
 			buttonUrl: "#",
 			buttonLabel: "Find out more!",
-			imgSrc: "https://via.placeholder.com/500x325"
+			imgSrc: "https://via.placeholder.com/500x325",
 		},
 		{
 			title: "Card Title",
@@ -43,7 +43,7 @@ export function Home() {
 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta porta dui, varius maximus neque tincidunt gravida. Quisque eleifend neque nisl, vitae cursus urna facilisis a.",
 			buttonUrl: "#",
 			buttonLabel: "Find out more!",
-			imgSrc: "https://via.placeholder.com/500x325"
+			imgSrc: "https://via.placeholder.com/500x325",
 		},
 		{
 			title: "Card Title",
@@ -51,7 +51,7 @@ export function Home() {
 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta porta dui, varius maximus neque tincidunt gravida. Quisque eleifend neque nisl, vitae cursus urna facilisis a.",
 			buttonUrl: "#",
 			buttonLabel: "Find out more!",
-			imgSrc: "https://via.placeholder.com/500x325"
+			imgSrc: "https://via.placeholder.com/500x325",
 		},
 		{
 			title: "Card Title",
@@ -59,8 +59,8 @@ export function Home() {
 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta porta dui, varius maximus neque tincidunt gravida. Quisque eleifend neque nisl, vitae cursus urna facilisis a.",
 			buttonUrl: "#",
 			buttonLabel: "Find out more!",
-			imgSrc: "https://via.placeholder.com/500x325"
-		}
+			imgSrc: "https://via.placeholder.com/500x325",
+		},
 	];
 
 	const getCards = cards.map((item, index) => {

@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 // Check index.scss file
 // import "../../styles/index.scss";
 
-const Navbar = props => {
+const Navbar = (props) => {
 	const buildMenu = props.menu.map((item, index) => {
 		return (
 			<li key={index} className="nav-item">
@@ -42,7 +42,7 @@ const Navbar = props => {
 
 Navbar.propTypes = {
 	menu: PropTypes.array,
-	brand: PropTypes.string
+	brand: PropTypes.string,
 };
 
 export default Navbar;

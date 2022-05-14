@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Footer = props => {
+const Footer = (props) => {
 	return (
 		<footer className="footer mt-3 py-5 bg-dark">
 			<div className="container text-center">
@@ -12,7 +12,7 @@ const Footer = props => {
 };
 
 Footer.propTypes = {
-	footerDescription: PropTypes.string
+	footerDescription: PropTypes.string,
 };
 
 export default Footer;
