@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "./navbar";
-import Jumbo from "./jumbo";
-import Card from "./card";
-import Footer from "./footer";
+import Jumbo from "./jumbo.jsx";
+import Card from "./card.jsx";
+import Footer from "./footer.jsx";
 
 // include images into your bundle
 // import rigoImage from "../../img/rigo-baby.jpg";
